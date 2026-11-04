@@ -1,0 +1,27 @@
+# Large DARPA dataset
+dataset/*.json
+dataset/*.jsonl
+
+# Generated batch results
+dataset/batch_results/
+
+# Generated CSV files
+*.csv
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Environment variables and secrets
+.env
+.streamlit/secrets.toml
+
+# VS Code settings
+.vscode/
+# Large generated provenance graph
+dataset/*.graphml
