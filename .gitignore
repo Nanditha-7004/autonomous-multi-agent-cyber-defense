@@ -25,3 +25,24 @@ env/
 .vscode/
 # Large generated provenance graph
 dataset/*.graphml
+# Experimental and unused scripts
+dataset/ai_anomaly_agent.py
+dataset/analyze_*.py
+dataset/build_provenance_graph.py
+dataset/check_commands.py
+dataset/decision_risk_agent.py
+dataset/extract_events.py
+dataset/inspect_*.py
+dataset/investigate_*.py
+dataset/mitigation_agent.py
+dataset/response_agent.py
+dataset/test_streaming.py
+
+# Large generated files
+dataset/*.graphml
+dataset/batch_results/
+
+# Dataset and generated outputs
+dataset/*.json
+dataset/*.csv
+*.csv
